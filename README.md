@@ -7,7 +7,7 @@ The mCards iOS Auth SDK encapsulates the following functionality:
 The SDK can be imported via SPM (Swift Package Manager).
 
 - In XCode, go to: File -> Add Package Dependencies
-- In the search bar enter: `https://github.com/Wantsa/sdk-auth-ios`
+- In the search bar enter: `https://github.com/Wantsa/sdk-auth-ios-framework`
 - Choose a dependency rule (e.g. `Up to Next Major` with `1.0.0`
 - Click `Add Package`
 
