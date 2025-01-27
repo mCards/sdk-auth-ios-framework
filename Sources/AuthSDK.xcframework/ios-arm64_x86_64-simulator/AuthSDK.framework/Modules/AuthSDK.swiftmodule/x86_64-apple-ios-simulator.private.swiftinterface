@@ -1,0 +1,194 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AuthSDK
+@_exported import AuthSDK
+import CoreSDK
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct Auth0Args {
+  public let auth0ClientID: Swift.String
+  public let auth0Domain: Swift.String
+  public let auth0Audience: Swift.String
+  public let accessGroup: Swift.String?
+  public init(auth0ClientID: Swift.String, auth0Domain: Swift.String, auth0Audience: Swift.String, accessGroup: Swift.String? = nil)
+}
+public struct LoginArgs {
+  public let savedPhoneNumber: Swift.String
+  public let forceAuth: Swift.Bool
+  public let regionCode: AuthSDK.RegionCode?
+  public let deepLink: AuthSDK.DeepLink?
+  public init(savedPhoneNumber: Swift.String = "", forceAuth: Swift.Bool = false, regionCode: AuthSDK.RegionCode? = nil, deepLink: AuthSDK.DeepLink? = nil)
+}
+@_hasMissingDesignatedInitializers public class AuthSdkProvider {
+  public static let shared: any AuthSDK.AuthSdk
+  @objc deinit
+}
+public protocol AuthSdk {
+  func configure(args: AuthSDK.Auth0Args)
+  func configure(accessToken: Swift.String, tokenRefreshCallback: any AuthSDK.AuthSDKTokenRefreshCallback)
+  func setLogging(debugMode: Swift.Bool, loggingCallback: (any CoreSDK.LoggingCallback)?)
+  func setNotificationToken(token: Swift.String)
+  func login(args: AuthSDK.LoginArgs, completion: @escaping (Swift.Result<AuthSDK.LoginResponse, any Swift.Error>) -> Swift.Void)
+  @discardableResult
+  func handleAuth0Result(url: Foundation.URL) -> Swift.Bool
+  func refreshTokens(completion: @escaping (Swift.Result<CoreSDK.JWTs, any Swift.Error>) -> Swift.Void)
+  func getUserProfile(completion: @escaping ((_ result: Swift.Result<AuthSDK.UserProfile, any Swift.Error>) -> Swift.Void))
+  func updateUserProfile(request: AuthSDK.UserProfile, completion: @escaping ((_ result: Swift.Result<AuthSDK.UserProfile, any Swift.Error>) -> Swift.Void))
+  func getUserProfileMetadata(completion: @escaping ((_ result: Swift.Result<AuthSDK.UserProfileMetadata, any Swift.Error>) -> Swift.Void))
+  func getUserRegion(completion: @escaping ((_ result: Swift.Result<[AuthSDK.UserRegion], any Swift.Error>) -> Swift.Void))
+  func logout(completion: @escaping (Swift.Bool) -> Swift.Void)
+}
+public struct LoginResponse {
+  public let jwts: CoreSDK.JWTs
+  public let user: AuthSDK.User
+}
+public struct User {
+  public let deviceId: Swift.String
+  public let cardId: Swift.String
+  public let phoneNumber: Swift.String
+  public let fullName: Swift.String
+  public let baseUrl: Swift.String
+  public let regionCode: Swift.String
+  public let regionName: Swift.String
+}
+public enum AllowedCountryCodes : Swift.String {
+  case US
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class UserProfile : Swift.Codable {
+  public var givenName: Swift.String
+  public var familyName: Swift.String
+  public var email: Swift.String
+  public var birthDate: Swift.String
+  public var address1: Swift.String
+  public var address2: Swift.String
+  public var city: Swift.String
+  public var state: Swift.String
+  public var postcode: Swift.String
+  public var countryCode: Swift.String
+  public var country: Swift.String
+  public var metadata: AuthSDK.UserProfileMetadata
+  public init(givenName: Swift.String = "", familyName: Swift.String = "", email: Swift.String = "", birthDate: Swift.String = "", address1: Swift.String = "", address2: Swift.String = "", city: Swift.String = "", state: Swift.String = "", postcode: Swift.String = "", countryCode: Swift.String = "", country: Swift.String = "", metadata: AuthSDK.UserProfileMetadata = UserProfileMetadata())
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public enum RegionCode : Swift.String, Swift.Codable {
+  case usRegion
+  case auRegion
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class UserRegion : Swift.Codable {
+  final public let code: AuthSDK.RegionCode?
+  final public let name: Swift.String?
+  public init(code: AuthSDK.RegionCode? = nil, name: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  public static func regionCodeFromString(_ stringValue: Swift.String?) -> AuthSDK.RegionCode
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct DeepLink : Swift.Codable {
+  public let linkType: AuthSDK.DeepLink.SmartLink
+  public let metaData: AuthSDK.DeepLink.MetaData
+  public init?(dynamicLinkURL: Foundation.URL)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension AuthSDK.DeepLink {
+  public struct SmartLink : Swift.Codable {
+    public let type: AuthSDK.DeepLink.SmartLink.LinkType
+    public let uuid: Swift.String
+    public enum LinkType : Swift.String, Swift.Codable {
+      case cardBalanceTransfer
+      case activities
+      public init?(rawValue: Swift.String)
+      public typealias RawValue = Swift.String
+      public var rawValue: Swift.String {
+        get
+      }
+    }
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension AuthSDK.DeepLink {
+  public struct MetaData : Swift.Codable {
+    public let regionCode: Swift.String?
+    public let card: AuthSDK.DeepLink.Card?
+    public let user: AuthSDK.DeepLink.User?
+    public let activity: AuthSDK.DeepLink.Activity?
+    public let marketer: AuthSDK.DeepLink.Marketer?
+    public let authentication: AuthSDK.DeepLink.Authentication
+    public let notification: AuthSDK.DeepLink.Notification?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Authentication : Swift.Codable {
+    public let requiresRefresh: Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct User : Swift.Codable {
+    public let phone: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Notification : Swift.Codable {
+    public let message: Swift.String
+    public let title: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Card : Swift.Codable {
+    public let uuid: Swift.String?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Marketer : Swift.Codable {
+    public let uuid: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct Activity : Swift.Codable {
+    public let uuid: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension AuthSDK.DeepLink {
+  public func toJSONString() -> Swift.String
+}
+public protocol AuthSDKTokenRefreshCallback {
+  func refreshJWTs(completion: @escaping (CoreSDK.JWTs) -> Swift.Void)
+}
+public class UserProfileMetadata : Swift.Codable {
+  public var personalInfoRequired: Swift.Bool
+  final public let cardHolderAddressRequired: Swift.Bool
+  final public let collectCardHolderAddress: Swift.Bool
+  public init(personalInfoRequired: Swift.Bool = false, cardHolderAddressRequired: Swift.Bool = false, collectCardHolderAddress: Swift.Bool = false)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+extension AuthSDK.AllowedCountryCodes : Swift.Equatable {}
+extension AuthSDK.AllowedCountryCodes : Swift.Hashable {}
+extension AuthSDK.AllowedCountryCodes : Swift.RawRepresentable {}
+extension AuthSDK.RegionCode : Swift.Equatable {}
+extension AuthSDK.RegionCode : Swift.Hashable {}
+extension AuthSDK.RegionCode : Swift.RawRepresentable {}
+extension AuthSDK.DeepLink.SmartLink.LinkType : Swift.Equatable {}
+extension AuthSDK.DeepLink.SmartLink.LinkType : Swift.Hashable {}
+extension AuthSDK.DeepLink.SmartLink.LinkType : Swift.RawRepresentable {}
