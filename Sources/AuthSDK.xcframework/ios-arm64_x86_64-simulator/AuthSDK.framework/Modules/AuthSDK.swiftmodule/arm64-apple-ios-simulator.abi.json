@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AuthSDK",
+    "printedName": "AuthSDK",
     "children": [
       {
         "kind": "Import",
@@ -278,6 +278,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -581,6 +597,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -659,7 +691,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1261,6 +1309,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1403,6 +1467,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1733,6 +1813,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1869,6 +1965,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3105,6 +3215,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3365,6 +3489,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3702,6 +3840,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -4196,6 +4348,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "Equatable",
                     "printedName": "Equatable",
                     "usr": "s:SQ",
@@ -4308,6 +4474,20 @@
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -4797,6 +4977,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -4924,6 +5118,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5049,6 +5257,20 @@
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -5222,6 +5444,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5365,6 +5601,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5490,6 +5740,20 @@
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -5619,6 +5883,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5666,6 +5944,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -5754,6 +6046,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6062,6 +6370,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6169,518 +6491,385 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/LoginArgs.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/LoginArgs.swift",
       "kind": "StringLiteral",
       "offset": 1969,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/LoginArgs.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/LoginArgs.swift",
       "kind": "BooleanLiteral",
       "offset": 1999,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2480,
       "length": 24,
       "value": "\"http:\/\/mcards.com\/user\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2531,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2566,
       "length": 7,
       "value": "\"phone\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2602,
       "length": 13,
       "value": "\"region_code\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2644,
       "length": 13,
       "value": "\"region_name\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2685,
       "length": 17,
       "value": "\"region_base_url\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2724,
       "length": 5,
       "value": "\"azp\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2751,
       "length": 5,
       "value": "\"aud\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2809,
       "length": 24,
       "value": "\"http:\/\/mcards.com\/card\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2856,
       "length": 6,
       "value": "\"uuid\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 680,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 713,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 741,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 804,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 835,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 862,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 890,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 921,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 955,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 985,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1538,
       "length": 12,
       "value": "\"given_name\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1577,
       "length": 13,
       "value": "\"family_name\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1657,
       "length": 16,
       "value": "\"address_line_1\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1698,
       "length": 16,
       "value": "\"address_line_2\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1801,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 1538,
-      "length": 12,
-      "value": "\"given_name\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 1577,
-      "length": 13,
-      "value": "\"family_name\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 1657,
-      "length": 16,
-      "value": "\"address_line_1\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 1698,
-      "length": 16,
-      "value": "\"address_line_2\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 1801,
-      "length": 14,
-      "value": "\"country_code\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 4,
       "value": "\"US\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 4,
       "value": "\"AU\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
       "kind": "StringLiteral",
       "offset": 240,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
-      "kind": "StringLiteral",
-      "offset": 194,
-      "length": 4,
-      "value": "\"US\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
-      "kind": "StringLiteral",
-      "offset": 219,
-      "length": 4,
-      "value": "\"AU\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 521,
       "length": 12,
       "value": "\"smart_link\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 558,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
-      "kind": "StringLiteral",
-      "offset": 521,
-      "length": 12,
-      "value": "\"smart_link\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
-      "kind": "StringLiteral",
-      "offset": 558,
-      "length": 10,
-      "value": "\"metadata\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 2031,
       "length": 23,
       "value": "\"card_balance_transfer\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
-      "kind": "StringLiteral",
-      "offset": 2031,
-      "length": 23,
-      "value": "\"card_balance_transfer\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 2642,
       "length": 8,
       "value": "\"region\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
-      "kind": "StringLiteral",
-      "offset": 2642,
-      "length": 8,
-      "value": "\"region\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 3168,
       "length": 18,
       "value": "\"requires_refresh\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
-      "kind": "StringLiteral",
-      "offset": 3168,
-      "length": 18,
-      "value": "\"requires_refresh\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 3685,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 3720,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
-      "kind": "StringLiteral",
-      "offset": 3685,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Models\/DeepLink.swift",
-      "kind": "StringLiteral",
-      "offset": 3720,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "BooleanLiteral",
       "offset": 429,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "BooleanLiteral",
       "offset": 479,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "BooleanLiteral",
       "offset": 528,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "StringLiteral",
       "offset": 833,
       "length": 24,
       "value": "\"personal_info_required\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "StringLiteral",
       "offset": 899,
       "length": 29,
       "value": "\"cardholder_address_required\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "StringLiteral",
       "offset": 969,
       "length": 28,
       "value": "\"collect_cardholder_address\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 833,
-      "length": 24,
-      "value": "\"personal_info_required\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 899,
-      "length": 29,
-      "value": "\"cardholder_address_required\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 969,
-      "length": 28,
-      "value": "\"collect_cardholder_address\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "BooleanLiteral",
       "offset": 949,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 7723,
       "length": 16,
       "value": "\"offline_access\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
-      "kind": "StringLiteral",
-      "offset": 7723,
-      "length": 16,
-      "value": "\"offline_access\""
-    },
-    {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 7942,
       "length": 7,
       "value": "\"phone\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 7976,
       "length": 6,
       "value": "\"udid\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 8018,
       "length": 17,
       "value": "\"push_channel_id\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 8071,
       "length": 17,
       "value": "\"smart_link_uuid\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 8117,
       "length": 8,
       "value": "\"prompt\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 8154,
       "length": 8,
       "value": "\"region\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 8304,
       "length": 7,
       "value": "\"login\""
     },
     {
-      "filePath": "\/Users\/mukhtaryusuf\/Documents\/GitHub2\/sdk-auth-ios\/Sources\/AuthSDK\/Helpers\/Logging.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Helpers\/Logging.swift",
       "kind": "BooleanLiteral",
       "offset": 171,
       "length": 5,
