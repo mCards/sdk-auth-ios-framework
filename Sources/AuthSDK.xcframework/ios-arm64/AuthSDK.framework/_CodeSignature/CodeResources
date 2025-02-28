@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/AuthSDK.h</key>
-		<data>
-		uFeXacUa+USY3sSKsUHP0/pklUE=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		4Faz6z0UO99DsRHCPyqv9XBpXbU=
+		Etl73kAQPsK45Gv1v+YQxPo8m6c=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -18,7 +14,7 @@
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		9LPE0x3TcgsDSL/yWvarkvSECvw=
+		nE58btYuRxkpZ/OK8xBLkdqZQfk=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,15 +22,11 @@
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		9LPE0x3TcgsDSL/yWvarkvSECvw=
+		nE58btYuRxkpZ/OK8xBLkdqZQfk=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mLsUn/uziYQvEjyFzFO8lkoptTI=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		jMD84Q7W+ywyF0W4cvUhUGy4pUA=
+		RxtwGlkRuUBz85Vn4qG8E5+w0fg=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -43,13 +35,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/AuthSDK.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5REG+/TAXZSZkdWv4hP0WAOTaTenKDvM4B6bq0a2xkk=
-			</data>
-		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
@@ -61,7 +46,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YxVakqObu6vawctm+bvquhC57wP8WkO5l9GvinKjY/Y=
+			L5+CVeDNzyKNHxMBgnymYHvbg/1NCcxAx06AIbhcIC4=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -75,21 +60,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YxVakqObu6vawctm+bvquhC57wP8WkO5l9GvinKjY/Y=
+			L5+CVeDNzyKNHxMBgnymYHvbg/1NCcxAx06AIbhcIC4=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fbw3fhb7R6RFieVviF8qTeUVhr0s6mYXtNCTjNyKrYA=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0cC5bCZ2qDKtXy+gxmLZ/azbyZ5u5UkjLwZgIDpioN0=
+			0b+/Zha+K0BP0OBCDAeLdAMmpO1T/W2ywqcpogmpCjw=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
