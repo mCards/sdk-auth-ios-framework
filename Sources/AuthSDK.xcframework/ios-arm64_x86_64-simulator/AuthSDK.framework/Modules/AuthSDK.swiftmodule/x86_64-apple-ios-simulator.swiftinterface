@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AuthSDK
+@_exported import AuthSDK
 import CoreSDK
 import Foundation
 import Swift
@@ -31,7 +32,9 @@ public protocol AuthSdk {
   func configure(accessToken: Swift.String, tokenRefreshCallback: any AuthSDK.AuthSDKTokenRefreshCallback)
   func setLogging(debugMode: Swift.Bool, loggingCallback: (any CoreSDK.LoggingCallback)?)
   func setNotificationToken(token: Swift.String)
-  func login(args: AuthSDK.LoginArgs, completion: @escaping (Swift.Result<AuthSDK.LoginResponse, any Swift.Error>) -> Swift.Void)
+  func auth0Authenticate(args: AuthSDK.LoginArgs, completion: @escaping (Swift.Result<AuthSDK.LoginResponse, any Swift.Error>) -> Swift.Void)
+  func mCardsLogin(firebaseNotificationToken: Swift.String)
+  func mCardsLogin()
   @discardableResult
   func handleAuth0Result(url: Foundation.URL) -> Swift.Bool
   func refreshTokens(completion: @escaping (Swift.Result<CoreSDK.JWTs, any Swift.Error>) -> Swift.Void)

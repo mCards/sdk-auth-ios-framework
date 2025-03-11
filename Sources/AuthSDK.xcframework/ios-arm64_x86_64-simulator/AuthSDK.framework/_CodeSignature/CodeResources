@@ -4,49 +4,57 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/AuthSDK.h</key>
+		<data>
+		uFeXacUa+USY3sSKsUHP0/pklUE=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		GUH20RAzCjU48vpUgsv3H2WkXbY=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		PyhrdHGk0yEOhavolfX7VLCK5lY=
+		19MT/r9ly0wdBNwCGVBWYcTodiQ=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DnWWdAgJqRZvnTZz2Oj/fmkd4sM=
+		zgA6wlq+8tN0zXH8+w37iEBBO/o=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MDF7KJV7Twlp8x/u5+K6+CrY2Jc=
+		AUxbVgL7ucu6Pu0CSO/Cm0SgdpQ=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DnWWdAgJqRZvnTZz2Oj/fmkd4sM=
+		zgA6wlq+8tN0zXH8+w37iEBBO/o=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ty19sybRjFcz+lE2OaAuYmEEepw=
+		OCQ4+0wpxthd88fmiyzOH+4MAos=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PyhrdHGk0yEOhavolfX7VLCK5lY=
+		19MT/r9ly0wdBNwCGVBWYcTodiQ=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uyiypZ3K5X81LNOl81hYqrjndd0=
+		9UHFZSAawB/LVWvT6MkVd+MMqsc=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eyfMySZhAuMEoaNm7CHJguRYoxU=
+		YJtJtaKTPBUkHKS/GL9ha8Vd2V8=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uyiypZ3K5X81LNOl81hYqrjndd0=
+		9UHFZSAawB/LVWvT6MkVd+MMqsc=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		llKgLrJyzundNzLcKA6YGu9T3Us=
+		d54+m5mZ/yGWfVvI3Bh4Iaez6Nc=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		jMD84Q7W+ywyF0W4cvUhUGy4pUA=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -55,74 +63,88 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/AuthSDK.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5REG+/TAXZSZkdWv4hP0WAOTaTenKDvM4B6bq0a2xkk=
+			</data>
+		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z8XbvjF70sYnHz7qUIycZKsDYEBGpmDlZDKXwg2dNBU=
+			4sQ4F8FnEAtLhbwzg7vmyvOLRRn8Dxc1JNSwYzVmKRU=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zfvOEjTzX0gv4ItqVYalEiJDgyXg/YWFFnv1DTv24GY=
+			HQdBXXdLiysXAZ6qiYZq4fwXmHxhcRw13OWM654/5lA=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TezhiK17WzHQ0S+EVZ9xUkNftDCZuvLcblkRbrQQRDw=
+			IecuDt3aLu1L9ccDHwfcAUEMf3J2YMYybletkKzHn+A=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zfvOEjTzX0gv4ItqVYalEiJDgyXg/YWFFnv1DTv24GY=
+			HQdBXXdLiysXAZ6qiYZq4fwXmHxhcRw13OWM654/5lA=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RrpVp3/6ARG/YHmLpG8X+eRJQ+4pePLk3aegozT4vt0=
+			Z6xt+v9tlmgdIwY6r0G+g3RUqTFaMzpsvfnFvDn6K+8=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z8XbvjF70sYnHz7qUIycZKsDYEBGpmDlZDKXwg2dNBU=
+			4sQ4F8FnEAtLhbwzg7vmyvOLRRn8Dxc1JNSwYzVmKRU=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tQACrmN0YuYeiq0JiNadjjTqvgsfLQN9G4peOyVkR2Y=
+			1dro0ocWqBr8h2b2c/ZizthMrPudxgV3dUSuMUmVsJI=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rRLWCv2lALX4LpY7igG4XNNRjvMV/fK8u15N2rN+6mc=
+			9KD6clicdkr38hsfw1UD+FUSTpZ3VWI4E6c0DNmJ2Cs=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tQACrmN0YuYeiq0JiNadjjTqvgsfLQN9G4peOyVkR2Y=
+			1dro0ocWqBr8h2b2c/ZizthMrPudxgV3dUSuMUmVsJI=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XjYieP84vP05lOdLnnv2KgcpVbKBn+qNJIYrunVkDw4=
+			pa8kQzy6WXBhFuG2SNg8bREQ4Ksb8dKhxbgjZom1ge0=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0cC5bCZ2qDKtXy+gxmLZ/azbyZ5u5UkjLwZgIDpioN0=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

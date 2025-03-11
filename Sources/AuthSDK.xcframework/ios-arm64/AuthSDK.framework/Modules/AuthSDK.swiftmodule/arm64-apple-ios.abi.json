@@ -873,8 +873,8 @@
           },
           {
             "kind": "Function",
-            "name": "login",
-            "printedName": "login(args:completion:)",
+            "name": "auth0Authenticate",
+            "printedName": "auth0Authenticate(args:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -921,8 +921,62 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AuthSDK0A3SdkP5login4args10completionyAA9LoginArgsV_ys6ResultOyAA0G8ResponseVs5Error_pGctF",
-            "mangledName": "$s7AuthSDK0A3SdkP5login4args10completionyAA9LoginArgsV_ys6ResultOyAA0G8ResponseVs5Error_pGctF",
+            "usr": "s:7AuthSDK0A3SdkP17auth0Authenticate4args10completionyAA9LoginArgsV_ys6ResultOyAA0H8ResponseVs5Error_pGctF",
+            "mangledName": "$s7AuthSDK0A3SdkP17auth0Authenticate4args10completionyAA9LoginArgsV_ys6ResultOyAA0H8ResponseVs5Error_pGctF",
+            "moduleName": "AuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
+            "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mCardsLogin",
+            "printedName": "mCardsLogin(firebaseNotificationToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK0A3SdkP11mCardsLogin25firebaseNotificationTokenySS_tF",
+            "mangledName": "$s7AuthSDK0A3SdkP11mCardsLogin25firebaseNotificationTokenySS_tF",
+            "moduleName": "AuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
+            "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mCardsLogin",
+            "printedName": "mCardsLogin()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK0A3SdkP11mCardsLoginyyF",
+            "mangledName": "$s7AuthSDK0A3SdkP11mCardsLoginyyF",
             "moduleName": "AuthSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
             "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
@@ -6815,56 +6869,56 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 7723,
+      "offset": 7735,
       "length": 16,
       "value": "\"offline_access\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 7942,
+      "offset": 7954,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 7976,
+      "offset": 7988,
       "length": 6,
       "value": "\"udid\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8018,
+      "offset": 8030,
       "length": 17,
       "value": "\"push_channel_id\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8071,
+      "offset": 8083,
       "length": 17,
       "value": "\"smart_link_uuid\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8117,
+      "offset": 8129,
       "length": 8,
       "value": "\"prompt\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8154,
+      "offset": 8166,
       "length": 8,
       "value": "\"region\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8304,
+      "offset": 8316,
       "length": 7,
       "value": "\"login\""
     },
