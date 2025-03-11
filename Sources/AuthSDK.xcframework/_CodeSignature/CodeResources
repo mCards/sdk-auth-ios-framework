@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AuthSDK.framework/AuthSDK</key>
 		<data>
-		DyQfLKZwZ4Ux94ZJ65ExkLPte5I=
+		H1ay/XmxLGgkRyO5iu8l9wwozAQ=
 		</data>
 		<key>ios-arm64/AuthSDK.framework/Headers/AuthSDK.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AuthSDK.framework/AuthSDK</key>
 		<data>
-		OH0IoXoPZ55tGLU58glWoyMHu0w=
+		cnxpoVS62RU5FAGqQslEWRO1bvQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AuthSDK.framework/Headers/AuthSDK.h</key>
 		<data>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DyQfLKZwZ4Ux94ZJ65ExkLPte5I=
+			H1ay/XmxLGgkRyO5iu8l9wwozAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q3OXyC/ERZjubx7ryU4B5gXu+lINgLPR01caur5Tu6c=
+			1D7+UJ8cJ7CNjnbH3Hu55zAF7ah6x3J0GZOZeRTKrFg=
 			</data>
 		</dict>
 		<key>ios-arm64/AuthSDK.framework/Headers/AuthSDK.h</key>
@@ -217,11 +217,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OH0IoXoPZ55tGLU58glWoyMHu0w=
+			cnxpoVS62RU5FAGqQslEWRO1bvQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4JKJnSEDnwYpydiU3YL+xDqe9IxRcRUseFyMXkQwbgg=
+			ZWAtFkfQnw8j1rTD6wFaRkmH3DPE/iy+vN1r/BDIOUo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AuthSDK.framework/Headers/AuthSDK.h</key>
