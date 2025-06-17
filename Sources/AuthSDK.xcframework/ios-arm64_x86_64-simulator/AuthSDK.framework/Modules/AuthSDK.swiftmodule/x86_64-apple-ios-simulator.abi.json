@@ -6869,56 +6869,56 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 7735,
+      "offset": 8044,
       "length": 16,
       "value": "\"offline_access\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 7954,
+      "offset": 8263,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 7988,
+      "offset": 8297,
       "length": 6,
       "value": "\"udid\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8030,
+      "offset": 8339,
       "length": 17,
       "value": "\"push_channel_id\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8083,
+      "offset": 8392,
       "length": 17,
       "value": "\"smart_link_uuid\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8129,
+      "offset": 8438,
       "length": 8,
       "value": "\"prompt\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8166,
+      "offset": 8475,
       "length": 8,
       "value": "\"region\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8316,
+      "offset": 8625,
       "length": 7,
       "value": "\"login\""
     },
