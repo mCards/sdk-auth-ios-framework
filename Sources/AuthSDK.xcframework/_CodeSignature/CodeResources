@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AuthSDK.framework/AuthSDK</key>
 		<data>
-		UgvYqFnOGnvBYHd5LuR/hTbh2kM=
+		zEJx/qhAzYb8QCY9mldZu+niOrA=
 		</data>
 		<key>ios-arm64/AuthSDK.framework/Headers/AuthSDK.h</key>
 		<data>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UgvYqFnOGnvBYHd5LuR/hTbh2kM=
+			zEJx/qhAzYb8QCY9mldZu+niOrA=
 			</data>
 			<key>hash2</key>
 			<data>
-			mg39G7MYi85a20X+lrfHzQ4JXS65SqKy2cmoJQUIAds=
+			xc1l0lno9rFZGF6YsLO8Y5LJQHDYx/OP2C/baMSQvSQ=
 			</data>
 		</dict>
 		<key>ios-arm64/AuthSDK.framework/Headers/AuthSDK.h</key>
