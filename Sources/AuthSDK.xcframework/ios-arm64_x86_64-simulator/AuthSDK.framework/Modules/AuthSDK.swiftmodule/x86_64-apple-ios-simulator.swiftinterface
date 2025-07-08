@@ -212,6 +212,10 @@ public struct EmptyBody : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct EmptyResponse : Swift.Decodable {
+  public init()
+  public init(from decoder: any Swift.Decoder) throws
+}
 extension AuthSDK.AllowedCountryCodes : Swift.Equatable {}
 extension AuthSDK.AllowedCountryCodes : Swift.Hashable {}
 extension AuthSDK.AllowedCountryCodes : Swift.RawRepresentable {}

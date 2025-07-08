@@ -7445,6 +7445,90 @@
             "mangledName": "$sSE"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EmptyResponse",
+        "printedName": "EmptyResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyResponse",
+                "printedName": "AuthSDK.EmptyResponse",
+                "usr": "s:7AuthSDK13EmptyResponseV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK13EmptyResponseVACycfc",
+            "mangledName": "$s7AuthSDK13EmptyResponseVACycfc",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyResponse",
+                "printedName": "AuthSDK.EmptyResponse",
+                "usr": "s:7AuthSDK13EmptyResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK13EmptyResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7AuthSDK13EmptyResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AuthSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7AuthSDK13EmptyResponseV",
+        "mangledName": "$s7AuthSDK13EmptyResponseV",
+        "moduleName": "AuthSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
       }
     ],
     "json_format_version": 8
