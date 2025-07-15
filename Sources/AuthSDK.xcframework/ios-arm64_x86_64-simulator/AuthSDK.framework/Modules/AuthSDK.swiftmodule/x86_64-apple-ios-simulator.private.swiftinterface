@@ -138,6 +138,7 @@ extension AuthSDK.DeepLink {
     public let marketer: AuthSDK.DeepLink.Marketer?
     public let authentication: AuthSDK.DeepLink.Authentication
     public let notification: AuthSDK.DeepLink.Notification?
+    public let loginImageURL: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
