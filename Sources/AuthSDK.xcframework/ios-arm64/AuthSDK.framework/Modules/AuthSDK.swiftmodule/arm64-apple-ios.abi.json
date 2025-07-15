@@ -5093,6 +5093,66 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "loginImageURL",
+                "printedName": "loginImageURL",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7AuthSDK8DeepLinkV8MetaDataV13loginImageURLSSSgvp",
+                "mangledName": "$s7AuthSDK8DeepLinkV8MetaDataV13loginImageURLSSSgvp",
+                "moduleName": "AuthSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7AuthSDK8DeepLinkV8MetaDataV13loginImageURLSSSgvg",
+                    "mangledName": "$s7AuthSDK8DeepLinkV8MetaDataV13loginImageURLSSSgvg",
+                    "moduleName": "AuthSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -7782,28 +7842,35 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 2642,
+      "offset": 2684,
       "length": 8,
       "value": "\"region\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 3168,
+      "offset": 2884,
+      "length": 17,
+      "value": "\"login_image_url\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 3261,
       "length": 18,
       "value": "\"requires_refresh\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 3685,
+      "offset": 3778,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 3720,
+      "offset": 3813,
       "length": 6,
       "value": "\"body\""
     },
