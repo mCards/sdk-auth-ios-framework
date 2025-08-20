@@ -1315,6 +1315,62 @@
           },
           {
             "kind": "Function",
+            "name": "getDeepLinkPayload",
+            "printedName": "getDeepLinkPayload(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AuthSDK.DeepLink, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AuthSDK.DeepLink, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeepLink",
+                        "printedName": "AuthSDK.DeepLink",
+                        "usr": "s:7AuthSDK8DeepLinkV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK0A3SdkP18getDeepLinkPayload10completionyys6ResultOyAA0eF0Vs5Error_pGc_tF",
+            "mangledName": "$s7AuthSDK0A3SdkP18getDeepLinkPayload10completionyys6ResultOyAA0eF0Vs5Error_pGc_tF",
+            "moduleName": "AuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
+            "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "logout",
             "printedName": "logout(completion:)",
             "children": [
