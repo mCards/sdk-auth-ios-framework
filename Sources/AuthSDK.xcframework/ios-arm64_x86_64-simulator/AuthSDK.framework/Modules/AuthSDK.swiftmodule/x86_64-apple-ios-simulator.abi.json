@@ -1195,8 +1195,8 @@
           },
           {
             "kind": "Function",
-            "name": "getUserProfileMetadata",
-            "printedName": "getUserProfileMetadata(completion:)",
+            "name": "getUserMetadata",
+            "printedName": "getUserMetadata(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1206,7 +1206,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<AuthSDK.UserProfileMetadata, any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<AuthSDK.UserMetadata, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1216,13 +1216,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<AuthSDK.UserProfileMetadata, any Swift.Error>",
+                    "printedName": "Swift.Result<AuthSDK.UserMetadata, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UserProfileMetadata",
-                        "printedName": "AuthSDK.UserProfileMetadata",
-                        "usr": "s:7AuthSDK19UserProfileMetadataC"
+                        "name": "UserMetadata",
+                        "printedName": "AuthSDK.UserMetadata",
+                        "usr": "s:7AuthSDK12UserMetadataC"
                       },
                       {
                         "kind": "TypeNominal",
@@ -1237,8 +1237,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AuthSDK0A3SdkP22getUserProfileMetadata10completionyys6ResultOyAA0efG0Cs5Error_pGc_tF",
-            "mangledName": "$s7AuthSDK0A3SdkP22getUserProfileMetadata10completionyys6ResultOyAA0efG0Cs5Error_pGc_tF",
+            "usr": "s:7AuthSDK0A3SdkP15getUserMetadata10completionyys6ResultOyAA0eF0Cs5Error_pGc_tF",
+            "mangledName": "$s7AuthSDK0A3SdkP15getUserMetadata10completionyys6ResultOyAA0eF0Cs5Error_pGc_tF",
             "moduleName": "AuthSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
             "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
@@ -1315,6 +1315,62 @@
           },
           {
             "kind": "Function",
+            "name": "getDeepLinkPayload",
+            "printedName": "getDeepLinkPayload(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AuthSDK.DeepLink, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AuthSDK.DeepLink, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeepLink",
+                        "printedName": "AuthSDK.DeepLink",
+                        "usr": "s:7AuthSDK8DeepLinkV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK0A3SdkP18getDeepLinkPayload10completionyys6ResultOyAA0eF0Vs5Error_pGc_tF",
+            "mangledName": "$s7AuthSDK0A3SdkP18getDeepLinkPayload10completionyys6ResultOyAA0eF0Vs5Error_pGc_tF",
+            "moduleName": "AuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
+            "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "logout",
             "printedName": "logout(completion:)",
             "children": [
@@ -1345,6 +1401,131 @@
             "declKind": "Func",
             "usr": "s:7AuthSDK0A3SdkP6logout10completionyySbc_tF",
             "mangledName": "$s7AuthSDK0A3SdkP6logout10completionyySbc_tF",
+            "moduleName": "AuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
+            "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserTandCs",
+            "printedName": "getUserTandCs(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[AuthSDK.TandC], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[AuthSDK.TandC], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AuthSDK.TandC]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TandC",
+                            "printedName": "AuthSDK.TandC",
+                            "usr": "s:7AuthSDK5TandCC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK0A3SdkP13getUserTandCs10completionyys6ResultOySayAA0F1CCGs5Error_pGc_tF",
+            "mangledName": "$s7AuthSDK0A3SdkP13getUserTandCs10completionyys6ResultOySayAA0F1CCGs5Error_pGc_tF",
+            "moduleName": "AuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
+            "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "acceptTandC",
+            "printedName": "acceptTandC(tandCId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK0A3SdkP11acceptTandC7tandCId10completionySS_ys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s7AuthSDK0A3SdkP11acceptTandC7tandCId10completionySS_ys6ResultOyyts5Error_pGctF",
             "moduleName": "AuthSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
             "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
@@ -3013,19 +3194,19 @@
           },
           {
             "kind": "Var",
-            "name": "metadata",
-            "printedName": "metadata",
+            "name": "userMetadata",
+            "printedName": "userMetadata",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UserProfileMetadata",
-                "printedName": "AuthSDK.UserProfileMetadata",
-                "usr": "s:7AuthSDK19UserProfileMetadataC"
+                "name": "UserMetadata",
+                "printedName": "AuthSDK.UserMetadata",
+                "usr": "s:7AuthSDK12UserMetadataC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7AuthSDK11UserProfileC8metadataAA0cD8MetadataCvp",
-            "mangledName": "$s7AuthSDK11UserProfileC8metadataAA0cD8MetadataCvp",
+            "usr": "s:7AuthSDK11UserProfileC12userMetadataAA0cF0Cvp",
+            "mangledName": "$s7AuthSDK11UserProfileC12userMetadataAA0cF0Cvp",
             "moduleName": "AuthSDK",
             "declAttributes": [
               "HasStorage",
@@ -3040,14 +3221,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UserProfileMetadata",
-                    "printedName": "AuthSDK.UserProfileMetadata",
-                    "usr": "s:7AuthSDK19UserProfileMetadataC"
+                    "name": "UserMetadata",
+                    "printedName": "AuthSDK.UserMetadata",
+                    "usr": "s:7AuthSDK12UserMetadataC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7AuthSDK11UserProfileC8metadataAA0cD8MetadataCvg",
-                "mangledName": "$s7AuthSDK11UserProfileC8metadataAA0cD8MetadataCvg",
+                "usr": "s:7AuthSDK11UserProfileC12userMetadataAA0cF0Cvg",
+                "mangledName": "$s7AuthSDK11UserProfileC12userMetadataAA0cF0Cvg",
                 "moduleName": "AuthSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3064,14 +3245,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "UserProfileMetadata",
-                    "printedName": "AuthSDK.UserProfileMetadata",
-                    "usr": "s:7AuthSDK19UserProfileMetadataC"
+                    "name": "UserMetadata",
+                    "printedName": "AuthSDK.UserMetadata",
+                    "usr": "s:7AuthSDK12UserMetadataC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7AuthSDK11UserProfileC8metadataAA0cD8MetadataCvs",
-                "mangledName": "$s7AuthSDK11UserProfileC8metadataAA0cD8MetadataCvs",
+                "usr": "s:7AuthSDK11UserProfileC12userMetadataAA0cF0Cvs",
+                "mangledName": "$s7AuthSDK11UserProfileC12userMetadataAA0cF0Cvs",
                 "moduleName": "AuthSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3088,8 +3269,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7AuthSDK11UserProfileC8metadataAA0cD8MetadataCvM",
-                "mangledName": "$s7AuthSDK11UserProfileC8metadataAA0cD8MetadataCvM",
+                "usr": "s:7AuthSDK11UserProfileC12userMetadataAA0cF0CvM",
+                "mangledName": "$s7AuthSDK11UserProfileC12userMetadataAA0cF0CvM",
                 "moduleName": "AuthSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3099,7 +3280,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(givenName:familyName:email:birthDate:address1:address2:city:state:postcode:countryCode:country:metadata:)",
+            "printedName": "init(givenName:familyName:email:birthDate:address1:address2:city:state:postcode:countryCode:country:userMetadata:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3186,15 +3367,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UserProfileMetadata",
-                "printedName": "AuthSDK.UserProfileMetadata",
+                "name": "UserMetadata",
+                "printedName": "AuthSDK.UserMetadata",
                 "hasDefaultArg": true,
-                "usr": "s:7AuthSDK19UserProfileMetadataC"
+                "usr": "s:7AuthSDK12UserMetadataC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7AuthSDK11UserProfileC9givenName06familyF05email9birthDate8address18address24city5state8postcode11countryCode0P08metadataACSS_S10SAA0cD8MetadataCtcfc",
-            "mangledName": "$s7AuthSDK11UserProfileC9givenName06familyF05email9birthDate8address18address24city5state8postcode11countryCode0P08metadataACSS_S10SAA0cD8MetadataCtcfc",
+            "usr": "s:7AuthSDK11UserProfileC9givenName06familyF05email9birthDate8address18address24city5state8postcode11countryCode0P012userMetadataACSS_S10SAA0cS0Ctcfc",
+            "mangledName": "$s7AuthSDK11UserProfileC9givenName06familyF05email9birthDate8address18address24city5state8postcode11countryCode0P012userMetadataACSS_S10SAA0cS0Ctcfc",
             "moduleName": "AuthSDK",
             "declAttributes": [
               "AccessControl"
@@ -4968,6 +5149,66 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "loginImageURL",
+                "printedName": "loginImageURL",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7AuthSDK8DeepLinkV8MetaDataV13loginImageURLSSSgvp",
+                "mangledName": "$s7AuthSDK8DeepLinkV8MetaDataV13loginImageURLSSSgvp",
+                "moduleName": "AuthSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7AuthSDK8DeepLinkV8MetaDataV13loginImageURLSSSgvg",
+                    "mangledName": "$s7AuthSDK8DeepLinkV8MetaDataV13loginImageURLSSSgvg",
+                    "moduleName": "AuthSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -6130,13 +6371,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UserProfileMetadata",
-        "printedName": "UserProfileMetadata",
+        "name": "ProfileMetadata",
+        "printedName": "ProfileMetadata",
         "children": [
           {
             "kind": "Var",
-            "name": "personalInfoRequired",
-            "printedName": "personalInfoRequired",
+            "name": "requiresPersonalInfo",
+            "printedName": "requiresPersonalInfo",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6146,93 +6387,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7AuthSDK19UserProfileMetadataC20personalInfoRequiredSbvp",
-            "mangledName": "$s7AuthSDK19UserProfileMetadataC20personalInfoRequiredSbvp",
-            "moduleName": "AuthSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7AuthSDK19UserProfileMetadataC20personalInfoRequiredSbvg",
-                "mangledName": "$s7AuthSDK19UserProfileMetadataC20personalInfoRequiredSbvg",
-                "moduleName": "AuthSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7AuthSDK19UserProfileMetadataC20personalInfoRequiredSbvs",
-                "mangledName": "$s7AuthSDK19UserProfileMetadataC20personalInfoRequiredSbvs",
-                "moduleName": "AuthSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7AuthSDK19UserProfileMetadataC20personalInfoRequiredSbvM",
-                "mangledName": "$s7AuthSDK19UserProfileMetadataC20personalInfoRequiredSbvM",
-                "moduleName": "AuthSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "cardHolderAddressRequired",
-            "printedName": "cardHolderAddressRequired",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7AuthSDK19UserProfileMetadataC25cardHolderAddressRequiredSbvp",
-            "mangledName": "$s7AuthSDK19UserProfileMetadataC25cardHolderAddressRequiredSbvp",
+            "usr": "s:7AuthSDK15ProfileMetadataC20requiresPersonalInfoSbvp",
+            "mangledName": "$s7AuthSDK15ProfileMetadataC20requiresPersonalInfoSbvp",
             "moduleName": "AuthSDK",
             "declAttributes": [
               "Final",
@@ -6255,8 +6411,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7AuthSDK19UserProfileMetadataC25cardHolderAddressRequiredSbvg",
-                "mangledName": "$s7AuthSDK19UserProfileMetadataC25cardHolderAddressRequiredSbvg",
+                "usr": "s:7AuthSDK15ProfileMetadataC20requiresPersonalInfoSbvg",
+                "mangledName": "$s7AuthSDK15ProfileMetadataC20requiresPersonalInfoSbvg",
                 "moduleName": "AuthSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -6268,8 +6424,8 @@
           },
           {
             "kind": "Var",
-            "name": "collectCardHolderAddress",
-            "printedName": "collectCardHolderAddress",
+            "name": "requiresAddress",
+            "printedName": "requiresAddress",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6279,8 +6435,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7AuthSDK19UserProfileMetadataC24collectCardHolderAddressSbvp",
-            "mangledName": "$s7AuthSDK19UserProfileMetadataC24collectCardHolderAddressSbvp",
+            "usr": "s:7AuthSDK15ProfileMetadataC15requiresAddressSbvp",
+            "mangledName": "$s7AuthSDK15ProfileMetadataC15requiresAddressSbvp",
             "moduleName": "AuthSDK",
             "declAttributes": [
               "Final",
@@ -6303,8 +6459,56 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7AuthSDK19UserProfileMetadataC24collectCardHolderAddressSbvg",
-                "mangledName": "$s7AuthSDK19UserProfileMetadataC24collectCardHolderAddressSbvg",
+                "usr": "s:7AuthSDK15ProfileMetadataC15requiresAddressSbvg",
+                "mangledName": "$s7AuthSDK15ProfileMetadataC15requiresAddressSbvg",
+                "moduleName": "AuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "collectAddress",
+            "printedName": "collectAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AuthSDK15ProfileMetadataC14collectAddressSbvp",
+            "mangledName": "$s7AuthSDK15ProfileMetadataC14collectAddressSbvp",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AuthSDK15ProfileMetadataC14collectAddressSbvg",
+                "mangledName": "$s7AuthSDK15ProfileMetadataC14collectAddressSbvg",
                 "moduleName": "AuthSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -6317,13 +6521,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(personalInfoRequired:cardHolderAddressRequired:collectCardHolderAddress:)",
+            "printedName": "init(requiresPersonalInfo:requiresAddress:collectAddress:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UserProfileMetadata",
-                "printedName": "AuthSDK.UserProfileMetadata",
-                "usr": "s:7AuthSDK19UserProfileMetadataC"
+                "name": "ProfileMetadata",
+                "printedName": "AuthSDK.ProfileMetadata",
+                "usr": "s:7AuthSDK15ProfileMetadataC"
               },
               {
                 "kind": "TypeNominal",
@@ -6348,8 +6552,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7AuthSDK19UserProfileMetadataC20personalInfoRequired017cardHolderAddressH0011collectCardjK0ACSb_S2btcfc",
-            "mangledName": "$s7AuthSDK19UserProfileMetadataC20personalInfoRequired017cardHolderAddressH0011collectCardjK0ACSb_S2btcfc",
+            "usr": "s:7AuthSDK15ProfileMetadataC20requiresPersonalInfo0E7Address07collectH0ACSb_S2btcfc",
+            "mangledName": "$s7AuthSDK15ProfileMetadataC20requiresPersonalInfo0E7Address07collectH0ACSb_S2btcfc",
             "moduleName": "AuthSDK",
             "declAttributes": [
               "AccessControl"
@@ -6363,9 +6567,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UserProfileMetadata",
-                "printedName": "AuthSDK.UserProfileMetadata",
-                "usr": "s:7AuthSDK19UserProfileMetadataC"
+                "name": "ProfileMetadata",
+                "printedName": "AuthSDK.ProfileMetadata",
+                "usr": "s:7AuthSDK15ProfileMetadataC"
               },
               {
                 "kind": "TypeNominal",
@@ -6375,8 +6579,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7AuthSDK19UserProfileMetadataC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s7AuthSDK19UserProfileMetadataC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:7AuthSDK15ProfileMetadataC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7AuthSDK15ProfileMetadataC4fromACs7Decoder_p_tKcfc",
             "moduleName": "AuthSDK",
             "declAttributes": [
               "Required",
@@ -6403,8 +6607,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7AuthSDK19UserProfileMetadataC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s7AuthSDK19UserProfileMetadataC6encode2toys7Encoder_p_tKF",
+            "usr": "s:7AuthSDK15ProfileMetadataC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7AuthSDK15ProfileMetadataC6encode2toys7Encoder_p_tKF",
             "moduleName": "AuthSDK",
             "declAttributes": [
               "AccessControl"
@@ -6414,8 +6618,410 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:7AuthSDK19UserProfileMetadataC",
-        "mangledName": "$s7AuthSDK19UserProfileMetadataC",
+        "usr": "s:7AuthSDK15ProfileMetadataC",
+        "mangledName": "$s7AuthSDK15ProfileMetadataC",
+        "moduleName": "AuthSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AuthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TandC",
+        "printedName": "TandC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "uuid",
+            "printedName": "uuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AuthSDK5TandCC4uuidSSvp",
+            "mangledName": "$s7AuthSDK5TandCC4uuidSSvp",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AuthSDK5TandCC4uuidSSvg",
+                "mangledName": "$s7AuthSDK5TandCC4uuidSSvg",
+                "moduleName": "AuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AuthSDK5TandCC5titleSSvp",
+            "mangledName": "$s7AuthSDK5TandCC5titleSSvp",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AuthSDK5TandCC5titleSSvg",
+                "mangledName": "$s7AuthSDK5TandCC5titleSSvg",
+                "moduleName": "AuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AuthSDK5TandCC3urlSSvp",
+            "mangledName": "$s7AuthSDK5TandCC3urlSSvp",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AuthSDK5TandCC3urlSSvg",
+                "mangledName": "$s7AuthSDK5TandCC3urlSSvg",
+                "moduleName": "AuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "acceptanceText",
+            "printedName": "acceptanceText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AuthSDK5TandCC14acceptanceTextSSvp",
+            "mangledName": "$s7AuthSDK5TandCC14acceptanceTextSSvp",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AuthSDK5TandCC14acceptanceTextSSvg",
+                "mangledName": "$s7AuthSDK5TandCC14acceptanceTextSSvg",
+                "moduleName": "AuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "acceptanceRequired",
+            "printedName": "acceptanceRequired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AuthSDK5TandCC18acceptanceRequiredSbvp",
+            "mangledName": "$s7AuthSDK5TandCC18acceptanceRequiredSbvp",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AuthSDK5TandCC18acceptanceRequiredSbvg",
+                "mangledName": "$s7AuthSDK5TandCC18acceptanceRequiredSbvg",
+                "moduleName": "AuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(uuid:title:url:acceptanceText:acceptanceRequired:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TandC",
+                "printedName": "AuthSDK.TandC",
+                "usr": "s:7AuthSDK5TandCC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK5TandCC4uuid5title3url14acceptanceText0G8RequiredACSS_S3SSbtcfc",
+            "mangledName": "$s7AuthSDK5TandCC4uuid5title3url14acceptanceText0G8RequiredACSS_S3SSbtcfc",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TandC",
+                "printedName": "AuthSDK.TandC",
+                "usr": "s:7AuthSDK5TandCC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK5TandCC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7AuthSDK5TandCC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK5TandCC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7AuthSDK5TandCC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7AuthSDK5TandCC",
+        "mangledName": "$s7AuthSDK5TandCC",
         "moduleName": "AuthSDK",
         "declAttributes": [
           "AccessControl",
@@ -6539,6 +7145,506 @@
         "printedName": "CoreSDK",
         "declKind": "Import",
         "moduleName": "AuthSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AuthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserMetadata",
+        "printedName": "UserMetadata",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "profileMetadata",
+            "printedName": "profileMetadata",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AuthSDK.ProfileMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProfileMetadata",
+                    "printedName": "AuthSDK.ProfileMetadata",
+                    "usr": "s:7AuthSDK15ProfileMetadataC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AuthSDK12UserMetadataC07profileD0AA07ProfileD0CSgvp",
+            "mangledName": "$s7AuthSDK12UserMetadataC07profileD0AA07ProfileD0CSgvp",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AuthSDK.ProfileMetadata?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProfileMetadata",
+                        "printedName": "AuthSDK.ProfileMetadata",
+                        "usr": "s:7AuthSDK15ProfileMetadataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AuthSDK12UserMetadataC07profileD0AA07ProfileD0CSgvg",
+                "mangledName": "$s7AuthSDK12UserMetadataC07profileD0AA07ProfileD0CSgvg",
+                "moduleName": "AuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requiresTandCs",
+            "printedName": "requiresTandCs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7AuthSDK12UserMetadataC14requiresTandCsSbSgvp",
+            "mangledName": "$s7AuthSDK12UserMetadataC14requiresTandCsSbSgvp",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7AuthSDK12UserMetadataC14requiresTandCsSbSgvg",
+                "mangledName": "$s7AuthSDK12UserMetadataC14requiresTandCsSbSgvg",
+                "moduleName": "AuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(profileMetadata:requiresTandCs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserMetadata",
+                "printedName": "AuthSDK.UserMetadata",
+                "usr": "s:7AuthSDK12UserMetadataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AuthSDK.ProfileMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProfileMetadata",
+                    "printedName": "AuthSDK.ProfileMetadata",
+                    "usr": "s:7AuthSDK15ProfileMetadataC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK12UserMetadataC07profileD014requiresTandCsAcA07ProfileD0CSg_SbSgtcfc",
+            "mangledName": "$s7AuthSDK12UserMetadataC07profileD014requiresTandCsAcA07ProfileD0CSg_SbSgtcfc",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserMetadata",
+                "printedName": "AuthSDK.UserMetadata",
+                "usr": "s:7AuthSDK12UserMetadataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK12UserMetadataC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7AuthSDK12UserMetadataC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK12UserMetadataC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7AuthSDK12UserMetadataC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7AuthSDK12UserMetadataC",
+        "mangledName": "$s7AuthSDK12UserMetadataC",
+        "moduleName": "AuthSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AuthSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EmptyBody",
+        "printedName": "EmptyBody",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyBody",
+                "printedName": "AuthSDK.EmptyBody",
+                "usr": "s:7AuthSDK9EmptyBodyV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK9EmptyBodyVACycfc",
+            "mangledName": "$s7AuthSDK9EmptyBodyVACycfc",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyBody",
+                "printedName": "AuthSDK.EmptyBody",
+                "usr": "s:7AuthSDK9EmptyBodyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK9EmptyBodyV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7AuthSDK9EmptyBodyV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AuthSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK9EmptyBodyV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7AuthSDK9EmptyBodyV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AuthSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7AuthSDK9EmptyBodyV",
+        "mangledName": "$s7AuthSDK9EmptyBodyV",
+        "moduleName": "AuthSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EmptyResponse",
+        "printedName": "EmptyResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyResponse",
+                "printedName": "AuthSDK.EmptyResponse",
+                "usr": "s:7AuthSDK13EmptyResponseV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK13EmptyResponseVACycfc",
+            "mangledName": "$s7AuthSDK13EmptyResponseVACycfc",
+            "moduleName": "AuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmptyResponse",
+                "printedName": "AuthSDK.EmptyResponse",
+                "usr": "s:7AuthSDK13EmptyResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7AuthSDK13EmptyResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7AuthSDK13EmptyResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AuthSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7AuthSDK13EmptyResponseV",
+        "mangledName": "$s7AuthSDK13EmptyResponseV",
+        "moduleName": "AuthSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -6631,114 +7737,121 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 677,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 713,
+      "offset": 710,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 741,
+      "offset": 738,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 773,
+      "offset": 770,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 804,
+      "offset": 801,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 832,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 862,
+      "offset": 859,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 890,
+      "offset": 887,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 955,
+      "offset": 952,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 985,
+      "offset": 982,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1533,
       "length": 12,
       "value": "\"given_name\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 1577,
+      "offset": 1572,
       "length": 13,
       "value": "\"family_name\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 1657,
+      "offset": 1652,
       "length": 16,
       "value": "\"address_line_1\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
+      "offset": 1693,
       "length": 16,
       "value": "\"address_line_2\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
-      "offset": 1801,
+      "offset": 1796,
       "length": 14,
       "value": "\"country_code\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 1860,
+      "length": 15,
+      "value": "\"user_metadata\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
@@ -6785,72 +7898,93 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 2642,
+      "offset": 2684,
       "length": 8,
       "value": "\"region\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 3168,
+      "offset": 2884,
+      "length": 17,
+      "value": "\"login_image_url\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 3261,
       "length": 18,
       "value": "\"requires_refresh\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 3685,
+      "offset": 3778,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 3720,
+      "offset": 3813,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
-      "kind": "BooleanLiteral",
-      "offset": 429,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
-      "kind": "BooleanLiteral",
-      "offset": 479,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
-      "kind": "BooleanLiteral",
-      "offset": 528,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 833,
+      "offset": 498,
       "length": 24,
       "value": "\"personal_info_required\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 554,
       "length": 29,
       "value": "\"cardholder_address_required\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 969,
+      "offset": 614,
       "length": 28,
       "value": "\"collect_cardholder_address\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "kind": "BooleanLiteral",
+      "offset": 699,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "kind": "BooleanLiteral",
+      "offset": 746,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "kind": "BooleanLiteral",
+      "offset": 792,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/TandC.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 17,
+      "value": "\"acceptance_text\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/TandC.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 21,
+      "value": "\"acceptance_required\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
@@ -6869,56 +8003,56 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8044,
+      "offset": 8243,
       "length": 16,
       "value": "\"offline_access\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8263,
+      "offset": 8462,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8297,
+      "offset": 8496,
       "length": 6,
       "value": "\"udid\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8339,
+      "offset": 8538,
       "length": 17,
       "value": "\"push_channel_id\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8392,
+      "offset": 8591,
       "length": 17,
       "value": "\"smart_link_uuid\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8438,
+      "offset": 8637,
       "length": 8,
       "value": "\"prompt\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8475,
+      "offset": 8674,
       "length": 8,
       "value": "\"region\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8625,
+      "offset": 8824,
       "length": 7,
       "value": "\"login\""
     },
@@ -6928,6 +8062,20 @@
       "offset": 171,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 18,
+      "value": "\"profile_metadata\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 17,
+      "value": "\"requires_tandcs\""
     }
   ]
 }

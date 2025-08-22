@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AuthSDK
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 @_exported import AuthSDK
 import CoreSDK
 import Foundation
@@ -41,9 +41,12 @@ public protocol AuthSdk {
   func refreshTokens(completion: @escaping (Swift.Result<CoreSDK.JWTs, any Swift.Error>) -> Swift.Void)
   func getUserProfile(completion: @escaping (_ result: Swift.Result<AuthSDK.UserProfile, any Swift.Error>) -> Swift.Void)
   func updateUserProfile(request: AuthSDK.UserProfile, completion: @escaping (_ result: Swift.Result<AuthSDK.UserProfile, any Swift.Error>) -> Swift.Void)
-  func getUserProfileMetadata(completion: @escaping (_ result: Swift.Result<AuthSDK.UserProfileMetadata, any Swift.Error>) -> Swift.Void)
+  func getUserMetadata(completion: @escaping (_ result: Swift.Result<AuthSDK.UserMetadata, any Swift.Error>) -> Swift.Void)
   func getUserRegion(completion: @escaping (_ result: Swift.Result<[AuthSDK.UserRegion], any Swift.Error>) -> Swift.Void)
+  func getDeepLinkPayload(completion: @escaping (_ result: Swift.Result<AuthSDK.DeepLink, any Swift.Error>) -> Swift.Void)
   func logout(completion: @escaping (Swift.Bool) -> Swift.Void)
+  func getUserTandCs(completion: @escaping (_ result: Swift.Result<[AuthSDK.TandC], any Swift.Error>) -> Swift.Void)
+  func acceptTandC(tandCId: Swift.String, completion: @escaping (_ result: Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
 }
 public struct LoginResponse {
   public let jwts: CoreSDK.JWTs
@@ -78,8 +81,8 @@ public class UserProfile : Swift.Codable {
   public var postcode: Swift.String
   public var countryCode: Swift.String
   public var country: Swift.String
-  public var metadata: AuthSDK.UserProfileMetadata
-  public init(givenName: Swift.String = "", familyName: Swift.String = "", email: Swift.String = "", birthDate: Swift.String = "", address1: Swift.String = "", address2: Swift.String = "", city: Swift.String = "", state: Swift.String = "", postcode: Swift.String = "", countryCode: Swift.String = "", country: Swift.String = "", metadata: AuthSDK.UserProfileMetadata = UserProfileMetadata())
+  public var userMetadata: AuthSDK.UserMetadata
+  public init(givenName: Swift.String = "", familyName: Swift.String = "", email: Swift.String = "", birthDate: Swift.String = "", address1: Swift.String = "", address2: Swift.String = "", city: Swift.String = "", state: Swift.String = "", postcode: Swift.String = "", countryCode: Swift.String = "", country: Swift.String = "", userMetadata: AuthSDK.UserMetadata = UserMetadata())
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -136,6 +139,7 @@ extension AuthSDK.DeepLink {
     public let marketer: AuthSDK.DeepLink.Marketer?
     public let authentication: AuthSDK.DeepLink.Authentication
     public let notification: AuthSDK.DeepLink.Notification?
+    public let loginImageURL: Swift.String?
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -177,14 +181,42 @@ extension AuthSDK.DeepLink {
 public protocol AuthSDKTokenRefreshCallback {
   func refreshJWTs(completion: @escaping (CoreSDK.JWTs) -> Swift.Void)
 }
-public class UserProfileMetadata : Swift.Codable {
-  public var personalInfoRequired: Swift.Bool
-  final public let cardHolderAddressRequired: Swift.Bool
-  final public let collectCardHolderAddress: Swift.Bool
-  public init(personalInfoRequired: Swift.Bool = false, cardHolderAddressRequired: Swift.Bool = false, collectCardHolderAddress: Swift.Bool = false)
+public class ProfileMetadata : Swift.Codable {
+  final public let requiresPersonalInfo: Swift.Bool
+  final public let requiresAddress: Swift.Bool
+  final public let collectAddress: Swift.Bool
+  public init(requiresPersonalInfo: Swift.Bool = false, requiresAddress: Swift.Bool = false, collectAddress: Swift.Bool = false)
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
+}
+public class TandC : Swift.Codable {
+  final public let uuid: Swift.String
+  final public let title: Swift.String
+  final public let url: Swift.String
+  final public let acceptanceText: Swift.String
+  final public let acceptanceRequired: Swift.Bool
+  public init(uuid: Swift.String, title: Swift.String, url: Swift.String, acceptanceText: Swift.String, acceptanceRequired: Swift.Bool)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public class UserMetadata : Swift.Codable {
+  final public let profileMetadata: AuthSDK.ProfileMetadata?
+  final public let requiresTandCs: Swift.Bool?
+  public init(profileMetadata: AuthSDK.ProfileMetadata? = nil, requiresTandCs: Swift.Bool? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public struct EmptyBody : Swift.Codable {
+  public init()
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct EmptyResponse : Swift.Decodable {
+  public init()
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension AuthSDK.AllowedCountryCodes : Swift.Equatable {}
 extension AuthSDK.AllowedCountryCodes : Swift.Hashable {}
