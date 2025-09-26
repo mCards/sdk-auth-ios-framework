@@ -10,27 +10,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1Anl49ZtA78FVIJomrRl7HW0r2s=
+		kkrMy+o0d+GNjoYI6M5ZlXCqZLU=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		4FCz4ZDS3g0WvoBqTLCLmnlSA7c=
+		JlW7U9SuTWCHZgzbnurZCj4IaqY=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		7H66qk/g7mvHt5O4c8lMymKFCrc=
+		TSQLoa0LtPlYQ+snkQoVgFFHDWM=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		CBFoevozJu6JDyVo5Qrv2obZ+E8=
+		TDP5K/zoMu+bJ7SxQPQPSv2S/w4=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		7H66qk/g7mvHt5O4c8lMymKFCrc=
+		TSQLoa0LtPlYQ+snkQoVgFFHDWM=
 		</data>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gfl3HVlGpwGI90a3l5qBryzkbgY=
+		H3HxnuySMBH5daQ2wWNaLCZu2Gc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,35 +54,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bJqm90y9eLnTkMbkxNeQzO6jPYjZ+dNIqdcI2B0eEQk=
+			Q5YjbhlW3LLkvp49OoJaMo7MZXEptD9YobywaC3V5sU=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nyasM3c/TTvHlvoH6WGPRApZrgSJBlHXoP1aoGJRH+M=
+			ohoEDk80E8L26I2sjPpwu7FuIna9tu0pTZSVlqxkzH4=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mWuUou+GZRBFBzAcxTZKbr7nHi6fLTuL7EmhOUZU8Ec=
+			q08T7E1V2seJRf+k1ztD5EiqK5fjIUylnExigzUhmgI=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nyasM3c/TTvHlvoH6WGPRApZrgSJBlHXoP1aoGJRH+M=
+			ohoEDk80E8L26I2sjPpwu7FuIna9tu0pTZSVlqxkzH4=
 			</data>
 		</dict>
 		<key>Modules/AuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CaRVTNpq1IZhVAyRVOckQv9Zm/vm4OHrsdtE/2uvRKQ=
+			XUq5F/K7UzTenssITg6WbCXSC3+MbevsCDhQ5MJ9Qmg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
