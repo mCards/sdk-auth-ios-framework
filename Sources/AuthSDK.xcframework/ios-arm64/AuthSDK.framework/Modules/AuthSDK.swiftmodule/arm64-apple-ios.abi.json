@@ -4520,8 +4520,7 @@
                 "mangledName": "$s7AuthSDK8DeepLinkV05SmartD0V0D4TypeO",
                 "moduleName": "AuthSDK",
                 "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
+                  "AccessControl"
                 ],
                 "enumRawTypeName": "String",
                 "conformances": [
@@ -6052,6 +6051,66 @@
                     "declKind": "Accessor",
                     "usr": "s:7AuthSDK8DeepLinkV8ActivityV4uuidSSvg",
                     "mangledName": "$s7AuthSDK8DeepLinkV8ActivityV4uuidSSvg",
+                    "moduleName": "AuthSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "rewardsTransaction",
+                "printedName": "rewardsTransaction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7AuthSDK8DeepLinkV8ActivityV18rewardsTransactionSbSgvp",
+                "mangledName": "$s7AuthSDK8DeepLinkV8ActivityV18rewardsTransactionSbSgvp",
+                "moduleName": "AuthSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7AuthSDK8DeepLinkV8ActivityV18rewardsTransactionSbSgvg",
+                    "mangledName": "$s7AuthSDK8DeepLinkV8ActivityV18rewardsTransactionSbSgvg",
                     "moduleName": "AuthSDK",
                     "implicit": true,
                     "accessorKind": "get"
@@ -7821,58 +7880,65 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 521,
+      "offset": 551,
       "length": 12,
       "value": "\"smart_link\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 558,
+      "offset": 588,
       "length": 10,
       "value": "\"metadata\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 2031,
+      "offset": 2025,
       "length": 23,
       "value": "\"card_balance_transfer\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 2684,
+      "offset": 2597,
       "length": 8,
       "value": "\"region\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 2884,
+      "offset": 2797,
       "length": 17,
       "value": "\"login_image_url\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 3261,
+      "offset": 3098,
       "length": 18,
       "value": "\"requires_refresh\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 3778,
+      "offset": 3543,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
-      "offset": 3813,
+      "offset": 3578,
       "length": 6,
       "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 4234,
+      "length": 21,
+      "value": "\"rewards_transaction\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
