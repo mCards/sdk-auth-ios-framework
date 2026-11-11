@@ -1077,6 +1077,89 @@
           },
           {
             "kind": "Function",
+            "name": "refreshSession",
+            "printedName": "refreshSession(latitude:longitude:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7AuthSDK0A3SdkP14refreshSession8latitude9longitude10completionySSSg_AHys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s7AuthSDK0A3SdkP14refreshSession8latitude9longitude10completionySSSg_AHys6ResultOyyts5Error_pGctF",
+            "moduleName": "AuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AuthSDK.AuthSdk>",
+            "sugared_genericSig": "<Self where Self : AuthSDK.AuthSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getUserProfile",
             "printedName": "getUserProfile(completion:)",
             "children": [
@@ -2153,17 +2236,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3401,13 +3484,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3419,6 +3495,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3677,17 +3760,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4028,13 +4111,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4046,6 +4122,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4533,17 +4616,17 @@
                   },
                   {
                     "kind": "Conformance",
-                    "name": "Escapable",
-                    "printedName": "Escapable",
-                    "usr": "s:s9EscapableP",
-                    "mangledName": "$ss9EscapableP"
-                  },
-                  {
-                    "kind": "Conformance",
                     "name": "Equatable",
                     "printedName": "Equatable",
                     "usr": "s:SQ",
                     "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
                   },
                   {
                     "kind": "Conformance",
@@ -4661,13 +4744,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -4679,6 +4755,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5222,13 +5305,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5240,6 +5316,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5363,13 +5446,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5381,6 +5457,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5504,13 +5587,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5522,6 +5598,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5689,13 +5772,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5707,6 +5783,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5846,13 +5929,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5864,6 +5940,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5987,13 +6070,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -6005,6 +6081,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -6188,13 +6271,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -6206,6 +6282,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -6251,13 +6334,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6269,6 +6345,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6638,13 +6721,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6656,6 +6732,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7040,13 +7123,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7058,6 +7134,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7418,13 +7501,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7436,6 +7512,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7544,13 +7627,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7562,6 +7638,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7635,17 +7718,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       }
@@ -7654,434 +7737,448 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/LoginArgs.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/LoginArgs.swift",
       "kind": "StringLiteral",
       "offset": 1969,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/LoginArgs.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/LoginArgs.swift",
       "kind": "BooleanLiteral",
       "offset": 1999,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2480,
       "length": 24,
       "value": "\"http:\/\/mcards.com\/user\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2531,
       "length": 11,
       "value": "\"full_name\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2566,
       "length": 7,
       "value": "\"phone\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2602,
       "length": 13,
       "value": "\"region_code\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2644,
       "length": 13,
       "value": "\"region_name\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2685,
       "length": 17,
       "value": "\"region_base_url\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2724,
       "length": 5,
       "value": "\"azp\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2751,
       "length": 5,
       "value": "\"aud\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2809,
       "length": 24,
       "value": "\"http:\/\/mcards.com\/card\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Extensions\/JWT+CustomClaims.swift",
       "kind": "StringLiteral",
       "offset": 2856,
       "length": 6,
       "value": "\"uuid\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 677,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 710,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 738,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 770,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 801,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 832,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 859,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 887,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 918,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 952,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 982,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1533,
       "length": 12,
       "value": "\"given_name\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1572,
       "length": 13,
       "value": "\"family_name\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1652,
       "length": 16,
       "value": "\"address_line_1\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1693,
       "length": 16,
       "value": "\"address_line_2\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1796,
       "length": 14,
       "value": "\"country_code\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfile.swift",
       "kind": "StringLiteral",
       "offset": 1860,
       "length": 15,
       "value": "\"user_metadata\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/UserApi.swift",
+      "kind": "StringLiteral",
+      "offset": 677,
+      "length": 17,
+      "value": "\"push_channel_id\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/UserApi.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 13,
+      "value": "\"device_udid\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 4,
       "value": "\"US\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 4,
       "value": "\"AU\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserRegion.swift",
       "kind": "StringLiteral",
       "offset": 240,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 551,
       "length": 12,
       "value": "\"smart_link\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 588,
       "length": 10,
       "value": "\"metadata\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 2025,
       "length": 23,
       "value": "\"card_balance_transfer\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 2597,
       "length": 8,
       "value": "\"region\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 2797,
       "length": 17,
       "value": "\"login_image_url\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 3098,
       "length": 18,
       "value": "\"requires_refresh\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 3543,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 3578,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Models\/DeepLink.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Models\/DeepLink.swift",
       "kind": "StringLiteral",
       "offset": 4234,
       "length": 21,
       "value": "\"rewards_transaction\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 24,
       "value": "\"personal_info_required\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "StringLiteral",
       "offset": 554,
       "length": 29,
       "value": "\"cardholder_address_required\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 28,
       "value": "\"collect_cardholder_address\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "BooleanLiteral",
       "offset": 699,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "BooleanLiteral",
       "offset": 746,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserProfileMetadata.swift",
       "kind": "BooleanLiteral",
       "offset": 792,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/TandC.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/TandC.swift",
       "kind": "StringLiteral",
       "offset": 437,
       "length": 17,
       "value": "\"acceptance_text\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/TandC.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/TandC.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 21,
       "value": "\"acceptance_required\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "BooleanLiteral",
       "offset": 949,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8243,
+      "offset": 10156,
       "length": 16,
       "value": "\"offline_access\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8462,
+      "offset": 10375,
       "length": 7,
       "value": "\"phone\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8496,
+      "offset": 10409,
       "length": 6,
       "value": "\"udid\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8538,
+      "offset": 10451,
       "length": 17,
       "value": "\"push_channel_id\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8591,
+      "offset": 10504,
       "length": 17,
       "value": "\"smart_link_uuid\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8637,
+      "offset": 10550,
       "length": 8,
       "value": "\"prompt\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8674,
+      "offset": 10587,
       "length": 8,
       "value": "\"region\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Auth0Client.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Auth0Client.swift",
       "kind": "StringLiteral",
-      "offset": 8824,
+      "offset": 10737,
       "length": 7,
       "value": "\"login\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Helpers\/Logging.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Helpers\/Logging.swift",
       "kind": "BooleanLiteral",
       "offset": 171,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserMetadata.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 18,
       "value": "\"profile_metadata\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AuthSDK\/Sources\/AuthSDK\/Networking\/Models\/UserMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/AuthSDK\/Networking\/Models\/UserMetadata.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 17,

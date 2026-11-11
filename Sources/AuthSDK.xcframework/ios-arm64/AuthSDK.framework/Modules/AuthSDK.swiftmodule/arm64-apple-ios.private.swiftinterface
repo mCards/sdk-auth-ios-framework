@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AuthSDK
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AuthSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 @_exported import AuthSDK
 import CoreSDK
 import Foundation
@@ -15,18 +15,14 @@ public struct Auth0Args {
   public let auth0Domain: Swift.String
   public let auth0Audience: Swift.String
   public let accessGroup: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(auth0ClientID: Swift.String, auth0Domain: Swift.String, auth0Audience: Swift.String, accessGroup: Swift.String? = nil)
-  #endif
 }
 public struct LoginArgs {
   public let savedPhoneNumber: Swift.String
   public let forceAuth: Swift.Bool
   public let regionCode: AuthSDK.RegionCode?
   public let deepLink: AuthSDK.DeepLink?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(savedPhoneNumber: Swift.String = "", forceAuth: Swift.Bool = false, regionCode: AuthSDK.RegionCode? = nil, deepLink: AuthSDK.DeepLink? = nil)
-  #endif
 }
 @_hasMissingDesignatedInitializers public class AuthSdkProvider {
   public static let shared: any AuthSDK.AuthSdk
@@ -35,39 +31,22 @@ public struct LoginArgs {
 public protocol AuthSdk {
   func configure(args: AuthSDK.Auth0Args)
   func configure(accessToken: Swift.String, tokenRefreshCallback: any AuthSDK.AuthSDKTokenRefreshCallback)
-  #if compiler(>=5.3) && $NonescapableTypes
   func setLogging(debugMode: Swift.Bool, loggingCallback: (any CoreSDK.LoggingCallback)?)
-  #endif
   func setNotificationToken(token: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
   func auth0Authenticate(args: AuthSDK.LoginArgs, completion: @escaping (Swift.Result<AuthSDK.LoginResponse, any Swift.Error>) -> Swift.Void)
-  #endif
   func mCardsLogin(firebaseNotificationToken: Swift.String)
   func mCardsLogin()
   @discardableResult
   func handleAuth0Result(url: Foundation.URL) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   func refreshTokens(completion: @escaping (Swift.Result<CoreSDK.JWTs, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
+  func refreshSession(latitude: Swift.String?, longitude: Swift.String?, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
   func getUserProfile(completion: @escaping (_ result: Swift.Result<AuthSDK.UserProfile, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func updateUserProfile(request: AuthSDK.UserProfile, completion: @escaping (_ result: Swift.Result<AuthSDK.UserProfile, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getUserMetadata(completion: @escaping (_ result: Swift.Result<AuthSDK.UserMetadata, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getUserRegion(completion: @escaping (_ result: Swift.Result<[AuthSDK.UserRegion], any Swift.Error>) -> Swift.Void)
-  #endif
   func logout(completion: @escaping (Swift.Bool) -> Swift.Void)
-  #if compiler(>=5.3) && $NonescapableTypes
   func getUserTandCs(completion: @escaping (_ result: Swift.Result<[AuthSDK.TandC], any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func acceptTandC(tandCId: Swift.String, completion: @escaping (_ result: Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
-  #endif
 }
 public struct LoginResponse {
   public let jwts: CoreSDK.JWTs
@@ -84,9 +63,7 @@ public struct User {
 }
 public enum AllowedCountryCodes : Swift.String {
   case US
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -114,9 +91,7 @@ public enum RegionCode : Swift.String, Swift.Codable {
   case usRegion
   case auRegion
   case none
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -125,22 +100,16 @@ public enum RegionCode : Swift.String, Swift.Codable {
 public class UserRegion : Swift.Codable {
   final public let code: AuthSDK.RegionCode?
   final public let name: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(code: AuthSDK.RegionCode? = nil, name: Swift.String? = nil)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func regionCodeFromString(_ stringValue: Swift.String?) -> AuthSDK.RegionCode
-  #endif
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct DeepLink : Swift.Codable {
   public let linkType: AuthSDK.DeepLink.SmartLink
   public let metaData: AuthSDK.DeepLink.MetaData
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(dynamicLinkURL: Foundation.URL)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -151,9 +120,7 @@ extension AuthSDK.DeepLink {
     public enum LinkType : Swift.String, Swift.Codable {
       case cardBalanceTransfer
       case activities
-      #if compiler(>=5.3) && $NonescapableTypes
       public init?(rawValue: Swift.String)
-      #endif
       public typealias RawValue = Swift.String
       public var rawValue: Swift.String {
         get
@@ -238,9 +205,7 @@ public class TandC : Swift.Codable {
 public class UserMetadata : Swift.Codable {
   final public let profileMetadata: AuthSDK.ProfileMetadata?
   final public let requiresTandCs: Swift.Bool?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(profileMetadata: AuthSDK.ProfileMetadata? = nil, requiresTandCs: Swift.Bool? = nil)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
