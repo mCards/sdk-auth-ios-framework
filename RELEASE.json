@@ -1,0 +1,14 @@
+{
+  "version": "1.1.19",
+  "artifact": "AuthSDK",
+  "referenceRepository": "Wantsa/sdk-auth-ios-framework",
+  "referenceCommit": "ec4a93b973924fa483ce499d005c12d059a5fb15",
+  "referenceTree": "4eaedc8bda8fea9ff90242948f42975aa3ac5014",
+  "sourceCommit": "7091c828a50d8c10920c086caaaec90abd9d9e15",
+  "testedCoreSDK": "1.4.8",
+  "coreDistribution": {
+    "repository": "mCards/sdk-cards-ios-framework",
+    "version": "1.1.19",
+    "product": "CoreSDK"
+  }
+}
